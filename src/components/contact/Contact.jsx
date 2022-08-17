@@ -4,6 +4,7 @@ import { MdMarkEmailUnread } from 'react-icons/md'
 import { BsMessenger, BsInstagram } from 'react-icons/bs'
 import emailjs from 'emailjs-com'
 
+/* =========== MAIL JS FOR SUBMIT FORM ============== */
 const Contact = () => {
   const form = useRef();
 
@@ -16,9 +17,11 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
-      
+
     e.target.reset()
   };
+/* =========== END OF MAIL JS ============== */
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
