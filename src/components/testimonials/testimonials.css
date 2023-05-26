@@ -13,13 +13,20 @@
 }
 
 .testimonial {
-  background: var(--color-bg-variant);
+  background: #1c2d32;
   text-align: center;
   padding: 2rem;
   border-radius: 2rem;
+  -webkit-user-select: none;
   user-select: none;
 }
 
+.swiper-button-next {
+  color: #a1f1b7 !important;
+}
+.swiper-button-prev {
+  color: #a1f1b7 !important;
+}
 .client__review {
   color: var(--color-light);
   font-weight: 300;

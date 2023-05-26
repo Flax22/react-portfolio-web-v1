@@ -11,11 +11,12 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
-  --color-white: #fff;
+  --color-bg: #fff;
+  --color-bg-v: #0A4D68;
+  --color-bg-variant: #A5D7E8;
+  --color-primary: #576CBC;
+  --color-primary-variant: rgba(77, 255, 216, 0.4);
+  --color-white: #A5D7E8;
   --color-light: rgba(255, 255, 255, 0.6);
 
   --transition: all 400ms ease;
@@ -35,7 +36,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: var(--color-bg);
+  background: var(--color-bg-v);
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
@@ -47,12 +48,9 @@ body {
   margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
   font-weight: 500;
+  color: #abffc0;
 }
 
 h1 {
@@ -70,7 +68,7 @@ section > h5 {
 }
 
 section > h2 {
-  color: var(--color-primary);
+  color: #76ffad;
   margin-bottom: 3rem;
 }
 
@@ -79,7 +77,7 @@ section > h2 {
 }
 
 a {
-  color: var(--color-primary);
+  color: #9cffa8;
   transition: var(--transition);
 }
 
@@ -95,29 +93,28 @@ a.icon {
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
+  color: #abffc0;
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid var(--color-primary);
+  border: 1px solid #abffc0;
   transition: var(--transition);
 }
-
 .btn:hover {
-  background: var(--color-white);
-  color: var(--color-bg);
-  border-color: transparent;
+  background: #00000042;
+  color: #76ffad;
+  border-color: #9cffa8;
 }
-
 .btn-primary {
-  background: var(--color-primary);
-  color: var(--color-bg);
+  background: #83ffee;
+  color: #000;
 }
 
 img {
   display: block;
   width: 100%;
   object-fit: cover;
+  object-position: bottom;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */

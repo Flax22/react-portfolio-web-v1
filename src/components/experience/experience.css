@@ -5,7 +5,7 @@
 }
 
 .experience__container > div {
-  background: var(--color-bg-variant);
+  background: rgb(0 0 0 / 32%);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
@@ -13,8 +13,8 @@
 }
 
 .experience__container > div:hover {
-  background: transparent;
-  border-color: var(--color-primary-variant);
+  background: rgba(0,0,0,.15);
+  border-color: var(--color-primary);
   cursor: default;
 }
 
@@ -37,7 +37,8 @@
 
 .experience__details-icon {
   margin-top: 6px;
-  color: var(--color-primary);
+  color: #76ffad;
+  font-size: 1.6rem;
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ================== */
