@@ -17,23 +17,23 @@ import 'swiper/css/pagination';
 
 const data = [
   {
-    avatar: AVTR1,
-    name: 'Tina Snow',
+    avatar: AVTR2,
+    name: 'Le Tri Dinh',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto, necessitatibus illo, cum voluptatum perspiciatis temporibus sequi dolores itaque quisquam placeat tempore nam sapiente molestiae explicabo rem id accusantium voluptate.'
   },
   {
-    avatar: AVTR2,
-    name: 'Shatta Wale',
+    avatar: AVTR1,
+    name: 'Pham Ngoc Gia Han',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto, necessitatibus illo, cum voluptatum perspiciatis temporibus sequi dolores itaque quisquam placeat tempore nam sapiente molestiae explicabo rem id accusantium voluptate.'
   },
   {
     avatar: AVTR3,
-    name: 'Kwame Despite',
+    name: 'Nguyen Thanh Trung',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto, necessitatibus illo, cum voluptatum perspiciatis temporibus sequi dolores itaque quisquam placeat tempore nam sapiente molestiae explicabo rem id accusantium voluptate.'
   },
   {
     avatar: AVTR4,
-    name: 'Nana Ama McBrown',
+    name: 'Nguyen Thi Anh',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto, necessitatibus illo, cum voluptatum perspiciatis temporibus sequi dolores itaque quisquam placeat tempore nam sapiente molestiae explicabo rem id accusantium voluptate.'
   },
 ]
